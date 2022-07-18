@@ -64,8 +64,6 @@ class MySpider(object):
 
 
 def main(url, folder_path):
-    folder_path = 'E:\\Delete\\CL\\Rima64P\\'
-    url = 'http://www.t66y.com/htm_data/2207/8/5182901.html'
     path = folder_path.rstrip("\\")
     if not os.path.exists(path):
         os.makedirs(path)
