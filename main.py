@@ -42,7 +42,7 @@ class MySpider(object):
                 continue
             filename = self._folder_path + str(img_count) + "." + imgsrc.split('.')[-1]
             # print(filename)
-            if img_count > 24:
+            if img_count > 0:
                 self.get_target_images(imgsrc, filename)
             img_count = img_count + 1
         # print(imgs)
